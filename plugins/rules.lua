@@ -25,7 +25,7 @@ end
 
 return {
   patterns = {
-    "^#rules$"
+    "^!rules$"
   }, 
   run = run 
 }
