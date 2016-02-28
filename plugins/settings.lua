@@ -650,15 +650,15 @@ end
 
 return {
     patterns = {
-        '^#(settings)$',
-        '^#(settings) (.*) (.*)$',
-        '^#(rem)$',
-        '^#(setname) (.*)$',
-        '^#(setphoto)$',
-        '^#(setphoto) (.*)$',
-        '^#(link)$',
-        '^#(setlink) (.*)$',
-        '^#(lang) (.*)$',
+        '^!(settings)$',
+        '^!(settings) (.*) (.*)$',
+        '^!(rem)$',
+        '^!(setname) (.*)$',
+        '^!(setphoto)$',
+        '^!(setphoto) (.*)$',
+        '^!(link)$',
+        '^!(setlink) (.*)$',
+        '^!(lang) (.*)$',
         '([\216-\219][\128-\191])'
     },
     pre_process = pre_process,
