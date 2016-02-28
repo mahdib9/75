@@ -98,11 +98,11 @@ end
 
 return {
 patterns = {
-"^#(tosuper)$",
-"^#(setdes) +(.+)$",
-"^#(listmod)$",
-"^#(setabout) +(.+)$",
-"^#(about)$",
+"^!(tosuper)$",
+"^!(setdes) +(.+)$",
+"^!(listmod)$",
+"^1(setabout) +(.+)$",
+"^!(about)$",
 },
 run = run
 }
