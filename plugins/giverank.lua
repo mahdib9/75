@@ -6,8 +6,8 @@
 --                                              --
 --------------------------------------------------
 --                                              --
---       Developers: @Josepdal & @MaSkAoS       --
---     Support: @Skneos,  @iicc1 & @serx666     --
+--       Developers: @mahdib9 & @Mahdib6       --
+--         --
 --                                              --
 --------------------------------------------------
 
@@ -333,11 +333,11 @@ end
 
 return {
   patterns = {
-  	"^#(rank) (.*) (.*)$",
-  	"^#(rank) (.*)$",
-  	"^#(admins)$",
-  	"^#(mods)$",
-  	"^#(members)$"
+  	"^!(rank) (.*) (.*)$",
+  	"^!(rank) (.*)$",
+  	"^!(admins)$",
+  	"^!(mods)$",
+  	"^!(members)$"
   },
   run = run
 }
