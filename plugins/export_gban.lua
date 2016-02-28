@@ -38,7 +38,7 @@ end
         description = 'Add gbans into your bot. A gbanlist command.',
         usage = {},
         patterns = {
-            "^#(install) (gbans)$"
+            "^!(install) (gbans)$"
         },
         run = run
     }
@@ -60,7 +60,7 @@ end
 
 return {
   patterns = {
-    "^#(gbans) (.*)$"
+    "^!(gbans) (.*)$"
   },
   run = run
 }
